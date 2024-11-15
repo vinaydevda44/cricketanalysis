@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPL Score Prediction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>IPL Score Predictor</h1>
+    <form id="predictionForm">
+      <label for="venue">Venue:</label>
+      <select id="venue"></select>
+
+      <label for="battingTeam">Batting Team:</label>
+      <select id="battingTeam"></select>
+
+      <label for="bowlingTeam">Bowling Team:</label>
+      <select id="bowlingTeam"></select>
+
+      <label for="striker">Striker:</label>
+      <select id="striker"></select>
+
+      <label for="bowler">Bowler:</label>
+      <select id="bowler"></select>
+
+      <button type="button" id="predictButton">Predict Score</button>
+    </form>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
